@@ -5,6 +5,6 @@ describe('example to-do app', () => {
   })
 
   it('displays two todo items by default', () => {
-    cy.get('div.toolbar').should('contain', 'Welcome');
+    cy.get('div.toolbar').should('contain', 'Welcomes');
   });
 });
